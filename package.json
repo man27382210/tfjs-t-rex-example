@@ -1,0 +1,28 @@
+{
+  "name": "tfjs-t-rex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "cross-env NODE_ENV=development parcel index.html --no-hmr --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.7.0",
+    "@tensorflow/tfjs-data": "^4.7.0",
+    "vega-embed": "^6.22.1"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "clang-format": "^1.8.0",
+    "cross-env": "^7.0.3",
+    "parcel": "^2.9.2",
+    "process": "^0.11.10",
+    "yalc": "^1.0.0-pre.53"
+  },
+  "resolutions": {
+    "node-fetch": "2.6.7",
+    "ansi-regex": "5.0.1"
+  }
+}
