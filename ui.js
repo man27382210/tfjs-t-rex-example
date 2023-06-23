@@ -8,7 +8,7 @@ export function init() {
   statusElement.style.display = 'none';
 }
 
-function debounceLeading(func, timeout = 300){
+function debounceLeading(func, timeout = 100){
   let timer;
   return (...args) => {
     if (!timer) {

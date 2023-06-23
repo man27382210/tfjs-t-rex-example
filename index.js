@@ -140,8 +140,10 @@ async function predict() {
  */
 async function getImage() {
   const img = await webcam.capture();
+  console.log('img: ', img);
   const processedImg =
       tf.tidy(() => img.expandDims(0).toFloat().div(127).sub(1));
+  console.log('processedImg: ', processedImg);
   img.dispose();
   return processedImg;
 }
